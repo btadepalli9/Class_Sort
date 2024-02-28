@@ -1,5 +1,5 @@
 ﻿/*
-Author: Bhavana Tadepalli
+Author: Bhavana Tadepalli - U89903796
 Date: 2/28/2024
 Comments: Used the selection sort process for sorting the numbers
 */
