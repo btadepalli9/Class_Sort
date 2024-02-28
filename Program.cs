@@ -1,4 +1,11 @@
-﻿int[] selection_sort_numbers = { 3, 62, 5, 16, 4, 10 };
+﻿/*
+Author: Bhavana Tadepalli
+Date: 2/28/2024
+Comments: Used the selection sort process for sorting the numbers
+*/
+
+
+int[] selection_sort_numbers = { 3, 62, 5, 16, 4, 10 };
 Console.WriteLine("the Selection Sort Algorithm: ");
 for (int i = 0; i < selection_sort_numbers.Length; i++)
 {
@@ -11,28 +18,27 @@ Console.WriteLine("");
 
 static void Selection_Sort(int[] ss_arr)
 {
-    // min_position is used to keep track of the element position with the current lowest value
+    // low value
     int min_position;
-    // temp is used to conduct the swap during during the Selection Sort Algorithm
+    // used to store the temp value
     int temp;
 
     for (int i = 0; i < ss_arr.Length; i++)
     {
-        // Here we initialize the min_position to the current index of array
+        // Min position
         min_position = i;
-        // From the min_position, check to see if the next element is smaller
+        //  next element is smaller
         for (int x = i + 1; x < ss_arr.Length; x++)
         {
-            // If the next element from the current min_position is smaller, then make that the new min_position
+           
             if (ss_arr[x] < ss_arr[min_position])
             {
-                //min_position will keep track of the index that min is in, this is needed when a swap happens
+                
                 min_position = x;
             }
-        } // End of inner for loop
-
-        // If the min_position does not equal the current element being evaluated in the loop
-        // Then execute the swap. by switching the postion of the lowest with the current element
+        } 
+        //end
+       
         if (min_position != i)
         {
             temp = ss_arr[i];
@@ -40,6 +46,6 @@ static void Selection_Sort(int[] ss_arr)
             ss_arr[min_position] = temp;
         }
         Console.Write("  " + ss_arr[i]);
-    } // End of outer for loop
-} // End of Selection_Sort
+    } 
+} 
 
