@@ -4,7 +4,6 @@ Date: 2/28/2024
 Comments: Used the selection sort process for sorting the numbers
 */
 
-
 int[] selection_sort_numbers = { 3, 62, 5, 16, 4, 10 };
 Console.WriteLine("the Selection Sort Algorithm: ");
 for (int i = 0; i < selection_sort_numbers.Length; i++)
