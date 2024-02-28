@@ -16,7 +16,7 @@ Console.WriteLine("");
 
 static void Selection_Sort(int[] ss_arr)
 {
-    // low value
+    // Min Value
     int min_position;
     // used to store the temp value
     int temp;
