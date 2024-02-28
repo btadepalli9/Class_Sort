@@ -1,5 +1,6 @@
 ﻿/*
 Author: Bhavana Tadepalli - U89903796
+Teammate - Rishika Nidiganti
 Date: 2/28/2024
 Comments: Used the selection sort process for sorting the numbers
 */
